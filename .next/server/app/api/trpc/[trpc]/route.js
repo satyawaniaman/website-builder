@@ -1,0 +1,12 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/trpc/[trpc]/route.js";
+const runtime = require("../../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/[externals]_node:async_hooks_432b63db._.js");
+runtime.loadChunk("server/chunks/716a1_next_dist_ce8419d5._.js");
+runtime.loadChunk("server/chunks/34521_@trpc_server_dist_59b10174._.js");
+runtime.loadChunk("server/chunks/98319_zod_v3_23a84898._.js");
+runtime.loadChunk("server/chunks/25454_inngest_1077df2c._.js");
+runtime.loadChunk("server/chunks/node_modules__pnpm_f7f7a6dd._.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__b5bf7473._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/api/trpc/[trpc]/route/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.3.4_@opentelemetry+api@1.9.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/trpc/[trpc]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.3.4_@opentelemetry+api@1.9.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/trpc/[trpc]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

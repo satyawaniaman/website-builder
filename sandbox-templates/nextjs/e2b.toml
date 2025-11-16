@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (gt9p5z438n6y74mnnxn1) or template name (website-builder-nextjs-test) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox.create("website-builder-nextjs-test") # Sync sandbox
+# sandbox = await AsyncSandbox.create("website-builder-nextjs-test") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('website-builder-nextjs-test')
+
+team_id = "42c84931-0a71-4c70-8d76-0f590fc1633a"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "website-builder-nextjs-test"
+template_id = "gt9p5z438n6y74mnnxn1"

@@ -1,0 +1,18 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/inngest/route.js";
+const runtime = require("../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__9610a0cb._.js");
+runtime.loadChunk("server/chunks/716a1_next_dist_686249c5._.js");
+runtime.loadChunk("server/chunks/25454_inngest_d1881ca8._.js");
+runtime.loadChunk("server/chunks/98319_zod_v3_23a84898._.js");
+runtime.loadChunk("server/chunks/d59e0_@modelcontextprotocol_sdk_dist_esm_944de1fa._.js");
+runtime.loadChunk("server/chunks/89413_ajv_dist_cc73c69e._.js");
+runtime.loadChunk("server/chunks/5dc96_@inngest_agent-kit_dist_49065020._.js");
+runtime.loadChunk("server/chunks/3c829_@connectrpc_connect_dist_esm_6512396c._.js");
+runtime.loadChunk("server/chunks/af7ee_@bufbuild_protobuf_dist_esm_93484e87._.js");
+runtime.loadChunk("server/chunks/54453_dockerfile-ast_lib_e9923b4d._.js");
+runtime.loadChunk("server/chunks/ac11e_e2b_dist_index_mjs_dd217e6a._.js");
+runtime.loadChunk("server/chunks/node_modules__pnpm_e1dae2d8._.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__95bb3683._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/api/inngest/route/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.3.4_@opentelemetry+api@1.9.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/inngest/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/.pnpm/next@15.3.4_@opentelemetry+api@1.9.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/inngest/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
