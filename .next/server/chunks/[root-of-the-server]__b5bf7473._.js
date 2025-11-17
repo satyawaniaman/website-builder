@@ -114,9 +114,9 @@ var { g: global, __dirname } = __turbopack_context__;
 __turbopack_context__.s({
     "inngest": (()=>inngest)
 });
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$inngest$40$3$2e$45$2e$1_$40$opentelemetry$2b$core$40$2$2e$2$2e$0_$40$opentelemetry$2b$api$40$1$2e$9$2e$0_$5f$express$40$5$2e$1$2e$0_next$40$1_e029d374516642dd9a767b32fbb0beec$2f$node_modules$2f$inngest$2f$components$2f$Inngest$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/inngest@3.45.1_@opentelemetry+core@2.2.0_@opentelemetry+api@1.9.0__express@5.1.0_next@1_e029d374516642dd9a767b32fbb0beec/node_modules/inngest/components/Inngest.js [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$inngest$40$3$2e$45$2e$1_$40$opentelemetry$2b$core$40$2$2e$2$2e$0_$40$opentelemetry$2b$api$40$1$2e$9$2e$0_$5f$express$40$5$2e$1$2e$0_next$40$1_4fa5bd0dfdfd9c3be3e096ca940bf26d$2f$node_modules$2f$inngest$2f$components$2f$Inngest$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/inngest@3.45.1_@opentelemetry+core@2.2.0_@opentelemetry+api@1.9.0__express@5.1.0_next@1_4fa5bd0dfdfd9c3be3e096ca940bf26d/node_modules/inngest/components/Inngest.js [app-route] (ecmascript)");
 ;
-const inngest = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$inngest$40$3$2e$45$2e$1_$40$opentelemetry$2b$core$40$2$2e$2$2e$0_$40$opentelemetry$2b$api$40$1$2e$9$2e$0_$5f$express$40$5$2e$1$2e$0_next$40$1_e029d374516642dd9a767b32fbb0beec$2f$node_modules$2f$inngest$2f$components$2f$Inngest$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Inngest"]({
+const inngest = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$inngest$40$3$2e$45$2e$1_$40$opentelemetry$2b$core$40$2$2e$2$2e$0_$40$opentelemetry$2b$api$40$1$2e$9$2e$0_$5f$express$40$5$2e$1$2e$0_next$40$1_4fa5bd0dfdfd9c3be3e096ca940bf26d$2f$node_modules$2f$inngest$2f$components$2f$Inngest$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Inngest"]({
     id: "website-builder"
 });
 }}),
@@ -128,15 +128,15 @@ var { g: global, __dirname } = __turbopack_context__;
 __turbopack_context__.s({
     "appRouter": (()=>appRouter)
 });
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$3$2e$25$2e$76$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/external.js [app-route] (ecmascript) <export * as z>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$4$2e$1$2e$12$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/zod@4.1.12/node_modules/zod/v4/classic/external.js [app-route] (ecmascript) <export * as z>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/trpc/init.ts [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$inngest$2f$client$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/inngest/client.ts [app-route] (ecmascript)");
 ;
 ;
 ;
 const appRouter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["createTRPCRouter"])({
-    invoke: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["baseProcedure"].input(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$3$2e$25$2e$76$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
-        value: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$3$2e$25$2e$76$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string()
+    invoke: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["baseProcedure"].input(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$4$2e$1$2e$12$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
+        value: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$4$2e$1$2e$12$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string()
     }))// Invoke background job from trpc
     .mutation(async ({ input })=>{
         await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$inngest$2f$client$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["inngest"].send({
@@ -149,8 +149,8 @@ const appRouter = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trp
             ok: "success"
         };
     }),
-    createAI: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["baseProcedure"].input(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$3$2e$25$2e$76$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
-        text: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$3$2e$25$2e$76$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string()
+    createAI: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$init$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["baseProcedure"].input(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$4$2e$1$2e$12$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
+        text: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zod$40$4$2e$1$2e$12$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string()
     })).query((opts)=>{
         return {
             greeting: `hello ${opts.input.text}`
