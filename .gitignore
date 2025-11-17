@@ -1,34 +1,43 @@
-# Dependencies
-node_modules/
-bower_components/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build outputs
-dist/
-build/
-out/
-*.log
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# testing
+/coverage
 
-# OS
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
+*.pem
 
-# Environment variables
-.env
-.env.local
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Test coverage
-coverage/
-*.coveragerc
+# env files (can opt-in for committing if needed)
+.env*
 
-# Temporary files
-*.tmp
-temp/
-tmp/
-.next
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/src/generated/prisma
